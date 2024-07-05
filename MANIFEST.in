@@ -1,0 +1,3 @@
+recursive-include logger_app *
+include README.rst DESCRIPTION
+exclude *.orig *.pyc *.wpr
