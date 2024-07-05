@@ -25,6 +25,7 @@ setup(
     install_requires=[
         "boto3==1.34.40",
         "django-log-outgoing-requests==0.6.1",
-        "httpx"
+        "httpx",
+        "pandas"
     ]
 )
