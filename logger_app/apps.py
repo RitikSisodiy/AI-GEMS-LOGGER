@@ -19,3 +19,8 @@ def ready(LogOutgoingRequestsConfig):
     print("++++++++++++++++==Logger App ready+++++++++++++++++++++++++")
 
 LogOutgoingRequestsConfig.ready = ready
+
+
+
+LogOutgoingRequestsConfig.default_auto_field = "django.db.models.BigAutoField"
+LogOutgoingRequestsConfig.name = "logger_app"
